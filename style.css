@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body,html{
+    font-family: 'Montserrat',sans-serif;
+}
+
+button,input{
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.employee-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.employee-container .employee-card{
+    border-radius: 5px;
+    border: 2px solid #888888;
+    text-align: center;
+}
+
+.employee-container .employee-card:not(:last-child){
+    margin-right: 20px;
+}
+
+.employee-container .employee-card img{
+    width: 250px;
+    height: 200px;
+}
+
+.employee-container .employee-card .employee-email,
+.employee-container .employee-card .employee-position{
+    color: #333;
+}
+
+.employee-container .employee-card .employee-position{
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.employee-container .employee-card .employee-email{
+    text-transform: none;
+    margin-bottom: 4px;
+    font-weight: 300;
+}
